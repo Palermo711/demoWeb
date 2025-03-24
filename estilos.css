@@ -1,0 +1,94 @@
+
+h1{
+  font-family: "Monomakh", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center;
+}
+
+h2{text-align:center;
+	}
+
+p{
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+li{
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h3{
+	color:rgb(204,208,100);
+	}
+	
+
+a{
+	text-decoration: none;
+	color:#6095c8;
+	}
+
+h4{
+	color:#9ac4f8;
+	}
+#cabecera{height:200px;
+	width: 100%;
+	background-color:rgb(204,208,100);
+	margin: 1px 1px 1px 1px;
+	}
+	
+#nav{
+	width: 100%;
+	background-color:rgb(204,208,100);
+	margin: 1px 1px 1px 1px;
+	
+	}
+	
+.mov{color:rgb(204,208,100)}
+	
+#cont{
+padding: 10px 5px 10px 5px;
+border: 3px solid #000;
+border-color:#03bb85;
+	}
+#pie{
+	background-color:#9ac4f8;
+	height:100px;
+
+	}
+	
+a:hover {color:#70d6ff;
+		text-decoration:overline;
+		background-color:#e9ff70;
+		font-size: 40px
+	}
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #pie {
+    color: green;
+  }
+  #cont {
+  border-color:red;
+}
+  #nav {
+    color: red;
+    background-color:blue
+  }
+  #cabecera {
+background-color:pink;
+}
+.nada{
+color:pink;
+}
+.mov{color:blue;}
+}
+
+

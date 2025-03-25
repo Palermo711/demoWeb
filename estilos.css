@@ -63,6 +63,15 @@ border-color:#03bb85;
 
 	}
 	
+#mobi{
+display:none;
+}
+#ordena{
+ width:10;
+ height:2;
+}
+
+	
 a:hover {color:#70d6ff;
 		text-decoration:overline;
 		background-color:#e9ff70;
@@ -89,6 +98,16 @@ background-color:pink;
 color:pink;
 }
 .mov{color:blue;}
+
+#ordena{
+display:none;
+ width:10;
+ height:2;
+}
+#mobi{
+display:block;
+ width:10;
+ height:2;
 }
 
-
+}
